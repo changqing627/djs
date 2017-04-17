@@ -1,0 +1,234 @@
+ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	text-decoration:none;
+}
+
+section{ clear:both;}
+
+*{ margin:0px; padding:0px;}
+
+@font-face {
+    font-family: 'CopprplGothBTRoman','Copperplate Gothic BT';
+    src: url('copperplategothicbt.eot');
+    src: url('copperplategothicbt.eot') format('embedded-opentype'),
+         url('copperplategothicbt.woff') format('woff'),
+         url('copperplategothicbt.ttf') format('truetype'),
+         url('copperplategothicbt.svg#CopprplGothBTRoman') format('svg'),
+		 url('Copperplate Gothic BT.ttf') format('truetype');
+}
+
+body{ 
+	width:100%;
+	min-width:320px;
+	min-height:500px;
+	height:100%;
+}
+h3{
+	margin-top:50px;
+	color:#c18460;
+	font-size:12px;
+	line-height:30px;
+}
+h4{
+	color:#d7c0c0;
+	font-size:16px;
+	line-height:30px;
+}
+p{
+	color:#d7c0c0;
+	font-size:10px;
+	line-height:20px;
+}
+
+#logo{
+	position:absolute;
+	top:14px;
+	left:20px;
+	width:141px;
+	height:120px;
+	z-index:500;	
+}
+
+#logo1{
+	float:left;
+	width:100px;
+	height:85px;
+	z-index:500;
+	margin-left:20px;
+	margin-top:14px;
+}
+#anniu1,#anniu2{
+	position:absolute;
+	display: block;
+	margin-top: 0px;
+	margin-right:100px;
+	z-index: 500;
+	right: 8px;
+	top: 50px;
+}
+
+.unit6 {
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+    width: 100px;
+	height:540px;
+	background:rgba(0,0,0,0.8);
+	z-index:500;
+	float:left;
+	margin-right:-100px;
+    
+}
+.unit6 li {
+	width:100px;
+	display:block;
+	font-family:"CopprplGothBTRoman","Copperplate Gothic BT","微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight:500;
+	font-size:12px;
+    line-height: 80px;
+	color:#fef1dc;
+	text-align:center;
+}
+
+
+.unit6 li a:link, .unit6 li a:visited {
+    color:#fef1dc;
+    text-decoration: none;
+}
+
+.unit6 li a:hover {
+    color:#fef1dc;
+}
+
+/*精选美味*/
+
+#homepage {
+	position:relative;
+	width:100%;
+	height:auto;
+}
+
+
+#homepage ul, #homepage ul li {
+	width:100%;
+	height:auto;
+}
+
+
+#meiwei{
+	max-width:1000px;
+	margin:0px auto;
+	font-family:"CopprplGothBTRoman","Copperplate Gothic BT","微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom:100px;
+}
+
+#meiwei ul li{
+	width:75%;
+	margin:0px auto;
+	color:#51104f;
+	font-size:10px;
+	line-height:30px;
+	display:block;
+	border-top:1px solid #f3dec6;
+}
+
+#meiwei-li1,#meiwei-li2,#meiwei-li3,#meiwei-li4,#meiwei-li5,#meiwei-li6,#meiwei-li7{
+	float:right;
+	display:block;
+	margin-top:10px;
+	
+}
+
+
+#imgslide7,#imgslide1,#imgslide2,#imgslide3,#imgslide4,#imgslide5,#imgslide6{ margin:0px auto; width:100%; position:relative;-moz-user-select:none; display:block;} 
+#imgslide7 img,#imgslide1 img,#imgslide2 img,#imgslide3 img,#imgslide4 img,#imgslide5 img,#imgslide6 img{ width:75%; margin-left:12.5%;} 
+.pre{ position:absolute; display:block; width:20px; margin-top:-50px; height:34px; left:5px; top:50%; background:url(../images/meiwei/prev-zi.png) no-repeat;}
+.next{ position:absolute; display:block; width:20px; height:34px;margin-top:-50px; top:50%; right:0; background:url(../images/meiwei/next-zi.png) no-repeat;} 
+.intro{ 
+	font-size:10px; 
+	width:75%;  
+	margin:0px auto; 
+	color:#c18460; 
+	height:150px; 
+	line-height:20px; 
+	margin-top:20px; 
+	font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+/*厨管团队*/
+
+#team1{
+	width:95%;
+	margin:0px auto;
+}
+
+.team2{
+	width:50%;
+	display:block;
+	height:550px;
+	float:left;
+	margin-top:30px;
+}
+.team2 img,.team2 h3,.team2 h4,.team2 p{
+	width:135px;
+	display:block;
+	margin:0px auto;
+}
+.team2 h3{
+	margin-top:30px;
+}
+
+/*联系我们*/
+
+#imgs{
+	width:75%; 
+	margin:0px auto;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+#imgs img{
+	display:block;
+	margin:0px auto;
+	margin-top:50px;
+}
+#img4{
+	margin-bottom:50px;
+}
+
+
+/* RAD41 */
+.RAD41_01{ position:relative; z-index:1;}
+ 
+ 
+.piclist { position: relative; overflow: hidden; display: block; -webkit-transition: left 600ms ease-out; }
+.piclist li { display: table-cell; width: 100%; overflow: hidden; position: relative; float: left; vertical-align: top;  }
+.pci_li { display: block; width: 100%; position: absolute; z-index: 100; background: rgba(255,255,255,0.7); left: 0; bottom: 0; }
+.piclist li a img { width:100%; border: none; display: block; }
+.piclist li .pci_li ,.piclist li .pci_li strong{ font-size:26px;  height:50px; padding-left: 15px; line-height:50px; color: #212121;font-weight:normal;  }
+.piclist li p { display: none; }
+.swipe { overflow: hidden; visibility: visible; list-style: none; position: relative; width: 100%; }
+ 
+.page a {  width:8px;height:8px;margin:0 3px;padding:0; border:1px solid #fff; border-radius:8px;display:inline-block;text-indent:-9999px }
+.page a.active {background:#fff; }
+.page { text-align: center; width: 100%; height: 18px; position: absolute; bottom: 50px; left: 0px; text-align:center; z-index: 1000; overflow: hidden; }
+
+.swipe {width: 100%;height:auto; overflow: hidden; visibility: hidden; position: relative;
+}
+
+.swipe-wrap {width: 100%; overflow: hidden; position: relative;}
+
+.swipe-wrap > div {	width: 100%;/* height: 100%;height:300px; */ float: left; position: relative;
+}
